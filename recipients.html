@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MDRRMOSC</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="./src/css/dashboard.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Rainfall Advisory</a>
+    
+      <form class="d-flex">
+        <a class="navbar-brand" href="#">MDRRMO</a>
+      </form>
+    </div>
+</nav>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <img id="logo" src="./src/mdrrmo_logo.png" class="img-fluid">
+        <h3 class="mt-2" align="center">MDRRMO</h3> <h6 align="center">Santa Cruz</h6> 
+
+        <ul>
+            <li><a href="./dashboard.html"><i class="fas fa-home"></i> &nbsp;Dashboard</a></li>
+            <li><a href="./advisory.html"><i class="fas fa-user"></i> &nbsp;Advisory</a></li>
+            <li><a href="./recipients.html"><i class="fas fa-users"></i> &nbsp;Recipients</a></li>
+            <li><a href="./index.html"><i class="fas fa-address-card"></i> &nbsp;Logout</a></li>
+        </ul> 
+        <div class="card mt-4 ">
+        	<div class="title mt-2" align="center">
+        		FORECAST
+        	</div> 
+        	<hr>
+        	<div class="content" align="center">
+        		Forecast tooo
+        	</div>
+        </div>
+    </div>
+    <div class="main_content">
+        <div class="container-fluid">
+        	<div class="row p-4">
+        		<div class="col-md-9">
+        			<div class="card mt-3">
+        				<div class="card-header">
+        					<div class="card-title mt-2">Recipients Management</div>
+        				</div>
+        				<div class="card-content">
+        					<div class="content p-2">
+                                  <input type="search" placeholder="Search">
+                                  <button class="btn btn-sm btn -secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        					</div>
+        				</div>
+
+        			</div>
+
+                    <div class="card mt-1">
+                         <table class="table table-hover">
+                             <thead>
+                               <tr>
+                                 <th scope="col">Level</th>
+                                 <th scope="col">Amount</th>
+                                 <th scope="col">Date</th>
+                               </tr>
+                             </thead>
+                             <tbody>
+                               <tr>
+                                 <td>Sample level</td>
+                                 <td>Sample amount</td>
+                                 <td>Sample date</td>
+                               </tr>
+                               <tr>
+                                 <td>Sample level</td>
+                                 <td>Sample amount</td>
+                                 <td>Sample date</td>
+                               </tr>
+                             </tbody>
+                        </table>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                          </nav>
+                    </div>
+
+        		</div>
+                <div class="col-md-3">
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <div class="card-title mt-2">Choose Category</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="content p-4">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                  <label class="form-check-label" for="defaultCheck1">
+                                    Category 1
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                  <label class="form-check-label" for="defaultCheck2">
+                                    Category 2
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                  <label class="form-check-label" for="defaultCheck3">
+                                    Category 3
+                                  </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <div class="card-title mt-2">Action</div>
+                        </div>
+                        <div class="card-content" align="center">
+                            <div class="content p-4">
+                               <button class="btn btn-md btn-outline-dark btn-block"> Imports </button> <br>
+                               <button class="btn btn-md btn-outline-dark mt-3 btn-block"> Archive </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        	</div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

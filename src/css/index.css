@@ -1,0 +1,49 @@
+
+	*{
+		padding: 0;
+		margin: 10px 90px;
+		box-sizing: border-box;
+	}
+
+
+	body{
+		background: white;
+		margin: 20px 50px;
+	}
+
+	.card{
+		background: white;
+		border-radius: 30px;
+		box-shadow: 6px 12px 22px grey;
+	}
+
+	#logo{
+	        height: 140px;
+	}
+
+	.btn_login{
+		border: none;
+		outline: none;
+		height: 40px;
+		width: 100%;
+		background: black;
+		color: white;
+		border-radius: 4px;
+		font-weight: bold;
+	}
+
+	.btn_login:hover{
+		background: white;
+		border: 1px solid;
+		color: black;
+	}
+
+	footer{
+		color: lightgrey;
+	}
+
+	@media screen and (max-width:800px) {
+  	 {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
